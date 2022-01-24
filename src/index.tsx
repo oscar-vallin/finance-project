@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const names: string[] = ["Fred", "Bob", "Billy"];
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App 
+      items={names}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
